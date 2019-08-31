@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A sample To Do application using local storage" />
+    <meta name="author" content="Edna Jonsson, React Developer" />
+
+    <title>To Do List</title>
+
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            <input type="text" id="myInput" placeholder="To Do Item..." />
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+
+        <ul id="myUL"></ul>
+        <hr />
+        <div>
+            <ul id="completed"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
